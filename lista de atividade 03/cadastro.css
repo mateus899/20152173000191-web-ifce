@@ -1,0 +1,34 @@
+
+
+body,ul{padding:0; margin: 0; list-style: none;}
+body {background: #333333;}
+
+#geral{overflow: hidden;} 
+
+
+#geral #topo{width:1018px; margin:0 auto; overflow:hidden; margin-top: 30px;}
+#geral #topo #logo, #menutopo {float:left; width: 400px}
+#geral #topo #logo {margin-right: 218px;}
+#geral #topo #logo a img{border: 0;} 
+#geral #topo #menutopo {overflow: hidden;}
+#geral #topo #menutopo li {float: left; padding:5px;}
+#geral #topo #menutopo li:hover {background:#000000; } 
+
+
+.menu:link{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:none; font-size: 20px}
+.menu:visited{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:none; }
+.menu:hover{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:underline; }
+
+#geral #formu {
+	float: right; 
+	width: 800px; 
+	font-style:bold;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color: #999999; 
+    text-decoration:none; 
+    font-size: 20px;  
+  
+}
+    
+
+
