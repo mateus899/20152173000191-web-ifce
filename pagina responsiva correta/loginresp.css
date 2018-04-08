@@ -1,0 +1,139 @@
+
+
+body,ul{padding:0; margin: 0; list-style: none;}
+body {background: #333333;}
+
+#geral{overflow: hidden;} 
+
+
+#geral #topo{width:1018px; margin:0 auto; overflow:hidden; margin-top: 30px;}
+#geral #topo #logo, #menutopo {float:left; width: 400px}
+#geral #topo #logo {margin-right: 218px;}
+#geral #topo #logo a img{border: 0;} 
+#geral #topo #menutopo {overflow: hidden;}
+#geral #topo #menutopo li {float: left; padding:5px;}
+#geral #topo #menutopo li:hover {background:#000000; } 
+
+
+.menu:link{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:none; font-size: 20px}
+.menu:visited{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:none; }
+.menu:hover{ font-family:Georgia, "Times New Roman", Times, serif; color: #999999; text-decoration:underline; }
+
+
+
+#log{
+	background: #666666;
+	width: 380px;
+	height: 260px;
+	margin: 90px auto 0px;
+}    
+
+#log #topo{
+
+	background-color: #666666;
+	width: 380px;
+	height: 45px;
+	text-align: center;
+	font: bolder 14px/45px Times New Roman-serif ;
+	font-size: 20px;
+	border-bottom: 1px solid #000000;
+	color: #ffffff;
+}
+.input-div{
+	margin: 20px;
+	padding: 5px;
+	background-color: #666666;
+	font:Times New Roman-serif;
+	font-size: 15px;
+	color: #ffffff;
+
+}
+.input-div input{
+	width: 310px;
+	height: 30px;
+	padding-left: 5px;
+	font: normal 13px ;
+	border: 1px solid #bfc4c6;
+}
+
+#input-senha{
+	margin-top: -20px; 
+}
+
+
+#botoes{
+	width: 310px;
+	margin-left: 25px;
+}    
+#botao{
+	float: right;
+	padding: 5px 15px;
+	font: bold 12px Times New Roman-serif font-size: 20px;
+
+}
+#lembra{
+
+	font: bold 12px Times New Roman-serif ;
+	font-size: 15px;
+	color: #ffffff
+
+}
+
+.bot:link{ font-family:Georgia, "Times New Roman", Times, serif; color: #fff; text-decoration:none; font-size: 20px}
+.bot:visited{ font-family:Georgia, "Times New Roman", Times, serif; color: #fff; text-decoration:none; }
+.bot:hover{ font-family:Georgia, "Times New Roman", Times, serif; color: #fff; text-decoration:underline; }
+
+
+
+@media only screen and  (max-width: 600px){
+#geral #topo{width:50%;}
+#geral #topo #logo { display: none;}
+#geral #topo #menutopo{
+	width: 100%;
+}
+	#log{
+	width: 50%;
+} 
+.input-div input{
+	width: 90%;	
+}
+#botoes{
+	width: 50%;
+	margin-left: 25px;
+}    
+}
+
+@media only screen and  (max-width: 800px){
+#geral #topo{width:50%;}
+#geral #topo #logo { display: none;}
+#geral #topo #menutopo{
+	width: 100%;
+}
+	#log{
+	width: 50%;
+} 
+.input-div input{
+	width: 90%;	
+}
+#botoes{
+	width: 50%;
+	margin-left: 25px;
+}    
+}
+
+
+@media only screen and  (max-width: 900px){
+#geral #topo{width:50%;}
+#geral #topo #logo, #menutopo { width: 70%}
+
+	#log{
+	width: 50%;
+} 
+.input-div input{
+	width: 90%;	
+}
+#botoes{
+	width: 50%;
+	margin-left: 25px;
+}    
+}
