@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Questão 7</title>
+<script type="text/javascript">
+ function mensagem() {
+		var campo1 = document.getElementById("idCampo1").value; 
+
+		if(campo1>=0 && campo1<10){
+			alert ("Insulficiente")
+		}else if (campo1>= 10 && campo1<14){
+		 alert ("Bom")	
+		}else if (campo1>= 14){
+		 alert ("Muito Bom")	
+		}
+		
+	}
+
+
+</script>
+</head>
+<body>
+	
+	Digite valor:<br>
+ 		<input type="number" name="campo1" id="idCampo1" value=""><br>
+ 		<button type="button" value="testar" onclick="mensagem()"> mensagem </button>
+<br>
+
+</body>
+</html>
