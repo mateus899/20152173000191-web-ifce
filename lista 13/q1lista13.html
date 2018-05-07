@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> questao 1 </title>
+	<script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+	
+<script type="text/javascript">
+  	// funcao para esconder texto
+  	$(document).ready(function(){
+ 	$("a").ready(function(event){
+  	$("#cookies").hide("slow"); 
+ 	});
+	})
+  	//funcao para mudar a cor
+	$(document).ready(function(){
+	$("#cor").click(function(){
+	$("#cor").css("background","red");	
+	});
+	})
+
+	$(document).ready(function(){
+	$("#mudanome").hover(
+	function(){
+	//Ao posicionar o cursor sobre a frase
+	jQuery("#mudanome").html("desapego-taua");
+	},
+	function(){
+	//Ao remover o cursor da frase
+	jQuery("#mudanome").html("desapego.com");
+	}
+	);
+	});
+
+
+</script>
+
+</head>
+<body>
+
+	<p>Olá bem vindo ao meu site</p>
+
+	<span id="mudanome">desapego.com.</span></p>
+	<p id="cookies"> +++ Site com cookies configurados+++</p>
+	<p id="cor">click aqui para mudar para cor vermelha</p>
+	<p>click aqui para alterar entre cor verde e amarelo</p>
+	<button id="teste">Clique me AJAX GET</button>
+	<button>Clique me AJAX POST</button>
+
+</body>
+</html>
